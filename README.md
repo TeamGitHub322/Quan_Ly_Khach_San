@@ -6,7 +6,7 @@ Thành viên:
 - Phân công nhiệm vụ bài 1:
 		Xây dựng hệ thống quản lý khách sạn	
 5.1	Xây dựng CSDL phòng, khách thuê phòng, đồ dùng trong phòng, dịch vụ sử dụng	Diện+ Ngọc Anh
-5.2	Thiết kế giao diện cửa sổ chính (màn hình đăng nhập, các menu trỏ đến các module con,…). Xây dựng module quản lý người dùng	Việt
+5.2	Thiết kế giao diện cửa sổ chính (màn hình đăng nhập, các menu trỏ đến các module con,…). Xây dựng module quản lý người dùng	Bình
 5.3	Xây dựng module quản lý phòng	Hoàng
 5.4	Xây dựng module quản lý vật dụng theo phòng	Hoàng
 5.5	Xây dựng module quản lý khách	Diện
