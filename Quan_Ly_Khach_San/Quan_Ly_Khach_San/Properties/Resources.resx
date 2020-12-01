@@ -118,8 +118,167 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="anhtrungtam_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anhtrungtam_new.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bann" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bann.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bbtnQl_BanAn_Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bbtnQl_BanAn.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bbtnQl_KhachHang_Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bbtnQl_KhachHang.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bbtnQl_NguyenLieu_Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bbtnQl_NguyenLieu.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bbtnQl_NguyenLieu_LargeGlyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bbtnQl_NguyenLieu.LargeGlyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bbtnQl_NhanVien_Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bbtnQl_NhanVien.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bbtnQl_NhanVien_LargeGlyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bbtnQl_NhanVien.LargeGlyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bbtnQl_NhapHang_Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bbtnQl_NhapHang.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bbtnQl_NhapHang_LargeGlyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bbtnQl_NhapHang.LargeGlyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bbtnQl_ThucDon_Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bbtnQl_ThucDon.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnDangNhap_Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnDangNhap.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnDangXuat_Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnDangXuat.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnDoiMatKhau_Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnDoiMatKhau.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnThongKe_Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnThongKe.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnThongTin_Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnThongTin.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnThucDon_Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnThucDon.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItem14_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItem14.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemLeftPhongBan_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemLeftPhongBan.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemMenuChuyenTaiKhoanKhac_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemMenuChuyenTaiKhoanKhac.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemMenuDangNhap_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemMenuDangNhap.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemMenuDoiMatKhau_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemMenuDoiMatKhau.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemMenuThoat_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemMenuThoat.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemPaneCayThuMuc_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemPaneCayThuMuc.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopBac_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopBac.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopBangLuongNhanVien_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopBangLuongNhanVien.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopChuyenSangTaiKhoanKhac_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopChuyenSangTaiKhoanKhac.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopDangNhap_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopDangNhap.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopDanhSachDanhMuc_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopDanhSachDanhMuc.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopDanhSachPhongBan_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopDanhSachPhongBan.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopDanhSachTrungTuyen_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopDanhSachTrungTuyen.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopDanhSachUngVien_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopDanhSachUngVien.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopDoiMatKhau_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopDoiMatKhau.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopHDSuDung_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopHDSuDung.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopHeSoLuong_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopHeSoLuong.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopHoSoNhanVien_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopHoSoNhanVien.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopLienHe_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopLienHe.Image.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopNgach_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopNgach.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopPhanQuyenNguoiDung_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopPhanQuyenNguoiDung.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopPhucHoiDuLieu_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopPhucHoiDuLieu.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopSaoLuuDuLieu_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopSaoLuuDuLieu.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopThongKeHoSoTuyenDung_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopThongKeHoSoTuyenDung.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopThongKeNhanVienTren40Tuoi_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopThongKeNhanVienTren40Tuoi.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopThongKeNhanVien_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopThongKeNhanVien.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopThongTinTrungTam_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopThongTinTrungTam.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopTiepNhanHoSo_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopTiepNhanHoSo.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopTiepNhanNhanVien_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopTiepNhanNhanVien.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopTimKiemHoSoTuyenDung_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopTimKiemHoSoTuyenDung.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopTimKiemNhanVien_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopTimKiemNhanVien.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonItemTopTTPhanMem_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonItemTopTTPhanMem.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clock_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clock-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorPickerDropDown1_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colorPickerDropDown1.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Customers" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Customers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="find" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\find.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="furniture" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\furniture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,11 +289,32 @@
   <data name="guide" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\guide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Icons8_Windows_8_Industry_Return" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icons8-Windows-8-Industry-Return.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Papirus_Team_Papirus_Apps_Preferences_system_search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Papirus-Team-Papirus-Apps-Preferences-system-search.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="QLKS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icons\QLKS.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="QLKS1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\QLKS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ribbonPageGroup1_Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ribbonPageGroup1.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ribbonPageGroup4_Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ribbonPageGroup4.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ribbonPageGroup7_Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ribbonPageGroup7.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Room" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Room.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,7 +328,28 @@
   <data name="Service_manage" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Service manage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ThongTinTrungtam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ThongTinTrungtam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ThongTinTrungtam_BIg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ThongTinTrungtam_BIg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Thumbs" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Thumbs.db;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolHienThi_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toolHienThi.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_02_Recycle_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\02-Recycle-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_05_Edit_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\05-Edit-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_return" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\return.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Quan_Ly_HS_GV_THPT;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace Quan_Ly_Khach_San
           {
                Application.EnableVisualStyles();
                Application.SetCompatibleTextRenderingDefault(false);
-               Application.Run(new frm_Start());
+               Application.Run(new Login());
           }
      }
 }

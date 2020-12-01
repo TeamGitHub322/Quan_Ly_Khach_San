@@ -105,7 +105,7 @@ namespace Quan_Ly_Khach_San
 
         private void butLogOut_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Thanks for using QuanLyThuVien project", "^...^", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            MessageBox.Show("Thanks for using QuanLyKhachSan project", "^...^", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             butKhachHang.Visible = butDichVu.Visible = butDoDung.Visible = butPhong.Visible = butQLDichVu.Visible = butQLDoDung.Visible = butQLPhong.Visible = butLogOut.Visible = false;
             butLogIn.Visible = textID.Visible = textPass.Visible = label1.Visible = label2.Visible = true;
             panel2.Visible = panel3.Visible = false;
