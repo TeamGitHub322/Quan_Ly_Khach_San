@@ -73,18 +73,18 @@ namespace Quan_Ly_Khach_San
 
         private void butDichVu_Click(object sender, EventArgs e)
         {
-            //FormDichVu frm = new FormDichVu();
-            //frm.ShowDialog();
-            //frm.Close();
-            //frm.Dispose();
+            FormDichVu frm = new FormDichVu();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
         }
 
         private void butQLDichVu_Click(object sender, EventArgs e)
         {
-            //FormQLDichVu frm = new FormQLDichVu();
-            //frm.ShowDialog();
-            //frm.Close();
-            //frm.Dispose();
+            FormQLDichVu frm = new FormQLDichVu();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
         }
 
         private void butQLDoDung_Click(object sender, EventArgs e)
