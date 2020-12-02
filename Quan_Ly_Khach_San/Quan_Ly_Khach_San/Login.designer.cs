@@ -1,4 +1,4 @@
-﻿namespace Quan_Ly_HS_GV_THPT
+﻿namespace Quan_Ly_Khach_San
 {
      partial class Login
      {

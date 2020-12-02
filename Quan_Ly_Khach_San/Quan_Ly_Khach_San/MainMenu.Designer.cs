@@ -42,6 +42,7 @@
                // 
                // butDoDung
                // 
+               this.butDoDung.Cursor = System.Windows.Forms.Cursors.Hand;
                this.butDoDung.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.butDoDung.Image = global::Quan_Ly_Khach_San.Properties.Resources.furniture;
                this.butDoDung.Location = new System.Drawing.Point(633, 423);
@@ -52,11 +53,11 @@
                this.butDoDung.Text = "Trang Thiết Bị";
                this.butDoDung.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
                this.butDoDung.UseVisualStyleBackColor = true;
-               this.butDoDung.Visible = false;
                this.butDoDung.Click += new System.EventHandler(this.butDoDung_Click);
                // 
                // butKhachHang
                // 
+               this.butKhachHang.Cursor = System.Windows.Forms.Cursors.Hand;
                this.butKhachHang.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.butKhachHang.Image = global::Quan_Ly_Khach_San.Properties.Resources.Customers;
                this.butKhachHang.Location = new System.Drawing.Point(416, 423);
@@ -67,11 +68,11 @@
                this.butKhachHang.Text = "Khách Hàng";
                this.butKhachHang.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
                this.butKhachHang.UseVisualStyleBackColor = true;
-               this.butKhachHang.Visible = false;
                this.butKhachHang.Click += new System.EventHandler(this.butKhachHang_Click);
                // 
                // butPhong
                // 
+               this.butPhong.Cursor = System.Windows.Forms.Cursors.Hand;
                this.butPhong.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.butPhong.Image = global::Quan_Ly_Khach_San.Properties.Resources.Room;
                this.butPhong.Location = new System.Drawing.Point(787, 160);
@@ -82,13 +83,13 @@
                this.butPhong.Text = "Phòng";
                this.butPhong.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
                this.butPhong.UseVisualStyleBackColor = true;
-               this.butPhong.Visible = false;
                this.butPhong.Click += new System.EventHandler(this.butPhong_Click);
                // 
                // butDichVu
                // 
                this.butDichVu.BackgroundImage = global::Quan_Ly_Khach_San.Properties.Resources.btnThongTin_Glyph;
                this.butDichVu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+               this.butDichVu.Cursor = System.Windows.Forms.Cursors.Hand;
                this.butDichVu.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.butDichVu.Location = new System.Drawing.Point(787, 324);
                this.butDichVu.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -98,11 +99,11 @@
                this.butDichVu.Text = "Dịch Vụ";
                this.butDichVu.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
                this.butDichVu.UseVisualStyleBackColor = true;
-               this.butDichVu.Visible = false;
                this.butDichVu.Click += new System.EventHandler(this.butDichVu_Click);
                // 
                // button1
                // 
+               this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
                this.button1.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.button1.Image = global::Quan_Ly_Khach_San.Properties.Resources.guide;
                this.button1.Location = new System.Drawing.Point(416, 229);
@@ -117,6 +118,7 @@
                // 
                // butQLPhong
                // 
+               this.butQLPhong.Cursor = System.Windows.Forms.Cursors.Hand;
                this.butQLPhong.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.butQLPhong.Image = global::Quan_Ly_Khach_San.Properties.Resources.room_manager;
                this.butQLPhong.Location = new System.Drawing.Point(11, 324);
@@ -127,11 +129,11 @@
                this.butQLPhong.Text = "Quản Lý Phòng";
                this.butQLPhong.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
                this.butQLPhong.UseVisualStyleBackColor = true;
-               this.butQLPhong.Visible = false;
                this.butQLPhong.Click += new System.EventHandler(this.butQLPhong_Click);
                // 
                // butQLDichVu
                // 
+               this.butQLDichVu.Cursor = System.Windows.Forms.Cursors.Hand;
                this.butQLDichVu.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.butQLDichVu.Image = global::Quan_Ly_Khach_San.Properties.Resources.Service_manage;
                this.butQLDichVu.Location = new System.Drawing.Point(11, 160);
@@ -142,13 +144,13 @@
                this.butQLDichVu.Text = "Quản Lý\r\nDịch Vụ\r\n";
                this.butQLDichVu.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
                this.butQLDichVu.UseVisualStyleBackColor = true;
-               this.butQLDichVu.Visible = false;
                this.butQLDichVu.Click += new System.EventHandler(this.butQLDichVu_Click);
                // 
                // butQLDoDung
                // 
                this.butQLDoDung.BackgroundImage = global::Quan_Ly_Khach_San.Properties.Resources.buttonItemPaneCayThuMuc_Image;
                this.butQLDoDung.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+               this.butQLDoDung.Cursor = System.Windows.Forms.Cursors.Hand;
                this.butQLDoDung.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                this.butQLDoDung.Location = new System.Drawing.Point(182, 423);
                this.butQLDoDung.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -158,7 +160,6 @@
                this.butQLDoDung.Text = "Quản Lý\r\nTrang Thiết Bị\r\n";
                this.butQLDoDung.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
                this.butQLDoDung.UseVisualStyleBackColor = true;
-               this.butQLDoDung.Visible = false;
                this.butQLDoDung.Click += new System.EventHandler(this.butQLDoDung_Click);
                // 
                // label1

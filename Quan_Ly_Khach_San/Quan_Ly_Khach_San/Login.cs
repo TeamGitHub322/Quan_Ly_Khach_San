@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Quan_Ly_Khach_San;
-namespace Quan_Ly_HS_GV_THPT
+namespace Quan_Ly_Khach_San
 {
      public partial class Login : Form
      {
@@ -61,7 +61,7 @@ namespace Quan_Ly_HS_GV_THPT
                string pass = login_txt_password.Text;
                if (user.Equals("admin") && pass.Equals("admin"))
                {
-                    frm_Start frm = new frm_Start();
+                    MainMenu frm = new MainMenu();
                     frm.Show();
                     this.Hide();
                }
