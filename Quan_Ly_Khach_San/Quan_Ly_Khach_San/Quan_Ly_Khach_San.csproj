@@ -48,17 +48,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connection.cs" />
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormDichVu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormDichVu.Designer.cs">
       <DependentUpon>FormDichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKhachHang.Designer.cs">
+      <DependentUpon>FormKhachHang.cs</DependentUpon>
     </Compile>
     <Compile Include="FormQLDichVu.cs">
       <SubType>Form</SubType>
@@ -66,10 +66,37 @@
     <Compile Include="FormQLDichVu.Designer.cs">
       <DependentUpon>FormQLDichVu.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormQLPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQLPhong.designer.cs">
+      <DependentUpon>FormQLPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FormKhachHang.resx">
+      <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQLPhong.resx">
+      <DependentUpon>FormQLPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -127,6 +154,75 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Images\QLKS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\02-Recycle-icon.png" />
+    <Content Include="Resources\05-Edit-icon.png" />
+    <Content Include="Resources\anhtrungtam_new.jpg" />
+    <Content Include="Resources\bann.jpg" />
+    <Content Include="Resources\bbtnQl_BanAn.Glyph.png" />
+    <Content Include="Resources\bbtnQl_KhachHang.Glyph.png" />
+    <Content Include="Resources\bbtnQl_NguyenLieu.Glyph.png" />
+    <Content Include="Resources\bbtnQl_NguyenLieu.LargeGlyph.png" />
+    <Content Include="Resources\bbtnQl_NhanVien.Glyph.png" />
+    <Content Include="Resources\bbtnQl_NhanVien.LargeGlyph.png" />
+    <Content Include="Resources\bbtnQl_NhapHang.Glyph.png" />
+    <Content Include="Resources\bbtnQl_NhapHang.LargeGlyph.png" />
+    <Content Include="Resources\bbtnQl_ThucDon.Glyph.png" />
+    <Content Include="Resources\btnDangNhap.Glyph.png" />
+    <Content Include="Resources\btnDangXuat.Glyph.png" />
+    <Content Include="Resources\btnDoiMatKhau.Glyph.png" />
+    <Content Include="Resources\btnThongKe.Glyph.png" />
+    <Content Include="Resources\btnThongTin.Glyph.png" />
+    <Content Include="Resources\btnThucDon.Glyph.png" />
+    <Content Include="Resources\buttonItem14.Image.png" />
+    <Content Include="Resources\buttonItemLeftPhongBan.Image.png" />
+    <Content Include="Resources\buttonItemMenuChuyenTaiKhoanKhac.Image.png" />
+    <Content Include="Resources\buttonItemMenuDangNhap.Image.png" />
+    <Content Include="Resources\buttonItemMenuDoiMatKhau.Image.png" />
+    <Content Include="Resources\buttonItemMenuThoat.Image.png" />
+    <Content Include="Resources\buttonItemPaneCayThuMuc.Image.png" />
+    <Content Include="Resources\buttonItemTopBac.Image.png" />
+    <Content Include="Resources\buttonItemTopBangLuongNhanVien.Image.png" />
+    <Content Include="Resources\buttonItemTopChuyenSangTaiKhoanKhac.Image.png" />
+    <Content Include="Resources\buttonItemTopDangNhap.Image.png" />
+    <Content Include="Resources\buttonItemTopDanhSachDanhMuc.Image.png" />
+    <Content Include="Resources\buttonItemTopDanhSachPhongBan.Image.png" />
+    <Content Include="Resources\buttonItemTopDanhSachTrungTuyen.Image.png" />
+    <Content Include="Resources\buttonItemTopDanhSachUngVien.Image.png" />
+    <Content Include="Resources\buttonItemTopDoiMatKhau.Image.png" />
+    <Content Include="Resources\buttonItemTopHDSuDung.Image.png" />
+    <Content Include="Resources\buttonItemTopHeSoLuong.Image.png" />
+    <Content Include="Resources\buttonItemTopHoSoNhanVien.Image.png" />
+    <Content Include="Resources\buttonItemTopLienHe.Image.gif" />
+    <Content Include="Resources\buttonItemTopNgach.Image.png" />
+    <Content Include="Resources\buttonItemTopPhanQuyenNguoiDung.Image.png" />
+    <Content Include="Resources\buttonItemTopPhucHoiDuLieu.Image.png" />
+    <Content Include="Resources\buttonItemTopSaoLuuDuLieu.Image.png" />
+    <Content Include="Resources\buttonItemTopThongKeHoSoTuyenDung.Image.png" />
+    <Content Include="Resources\buttonItemTopThongKeNhanVien.Image.png" />
+    <Content Include="Resources\buttonItemTopThongKeNhanVienTren40Tuoi.Image.png" />
+    <Content Include="Resources\buttonItemTopThongTinTrungTam.Image.png" />
+    <Content Include="Resources\buttonItemTopTiepNhanHoSo.Image.png" />
+    <Content Include="Resources\buttonItemTopTiepNhanNhanVien.Image.png" />
+    <Content Include="Resources\buttonItemTopTimKiemHoSoTuyenDung.Image.png" />
+    <Content Include="Resources\buttonItemTopTimKiemNhanVien.Image.png" />
+    <Content Include="Resources\buttonItemTopTTPhanMem.Image.png" />
+    <Content Include="Resources\Clock-icon.png" />
+    <Content Include="Resources\colorPickerDropDown1.Image.png" />
+    <Content Include="Resources\find.ico" />
+    <Content Include="Resources\Icons8-Windows-8-Industry-Return.ico" />
+    <Content Include="Resources\Image1.bmp" />
+    <Content Include="Resources\Papirus-Team-Papirus-Apps-Preferences-system-search.ico" />
+    <Content Include="Resources\pass.png" />
+    <Content Include="Resources\return.png" />
+    <Content Include="Resources\ribbonPageGroup1.Glyph.png" />
+    <Content Include="Resources\ribbonPageGroup4.Glyph.png" />
+    <Content Include="Resources\ribbonPageGroup7.Glyph.png" />
+    <Content Include="Resources\ThongTinTrungtam.png" />
+    <Content Include="Resources\ThongTinTrungtam_BIg.png" />
+    <Content Include="Resources\toolHienThi.Image.png" />
+    <Content Include="Resources\user.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

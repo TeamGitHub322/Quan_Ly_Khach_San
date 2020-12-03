@@ -32,8 +32,11 @@ namespace Quan_Ly_Khach_San
 
           private void butQLPhong_Click(object sender, EventArgs e)
           {
-
-          }
+            FormQLPhong frm = new FormQLPhong();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
+        }
 
           private void butQLDoDung_Click(object sender, EventArgs e)
           {
