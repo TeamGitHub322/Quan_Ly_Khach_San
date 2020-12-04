@@ -66,6 +66,12 @@
     <Compile Include="FormQLDichVu.Designer.cs">
       <DependentUpon>FormQLDichVu.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormQLDoDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQLDoDung.designer.cs">
+      <DependentUpon>FormQLDoDung.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormQLPhong.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormKhachHang.resx">
       <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQLDoDung.resx">
+      <DependentUpon>FormQLDoDung.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormQLPhong.resx">
       <DependentUpon>FormQLPhong.cs</DependentUpon>

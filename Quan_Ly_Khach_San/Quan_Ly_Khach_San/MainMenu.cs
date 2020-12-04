@@ -40,8 +40,11 @@ namespace Quan_Ly_Khach_San
 
           private void butQLDoDung_Click(object sender, EventArgs e)
           {
-
-          }
+            FormQLDoDung frm = new FormQLDoDung();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
+        }
 
           private void butKhachHang_Click(object sender, EventArgs e)
           {
