@@ -27,7 +27,10 @@ namespace Quan_Ly_Khach_San
 
           private void butQLDichVu_Click(object sender, EventArgs e)
           {
-
+               FormQLDichVu frm = new FormQLDichVu();
+               frm.ShowDialog();
+               frm.Close();
+               frm.Dispose();
           }
 
           private void butQLPhong_Click(object sender, EventArgs e)
