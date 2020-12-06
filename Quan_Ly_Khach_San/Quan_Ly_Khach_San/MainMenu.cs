@@ -61,7 +61,10 @@ namespace Quan_Ly_Khach_San
 
           private void butDichVu_Click(object sender, EventArgs e)
           {
-
+               FormDichVu frm = new FormDichVu();
+               frm.ShowDialog();
+               frm.Close();
+               frm.Dispose();
           }
 
           private void butPhong_Click(object sender, EventArgs e)

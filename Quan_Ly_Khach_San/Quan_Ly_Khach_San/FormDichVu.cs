@@ -92,7 +92,7 @@ namespace Quan_Ly_Khach_San
                if (listView1.SelectedItems.Count > 0)
                {
                     connector.DeleteObject("4", textID.Text.Trim(), "");
-                    if (butSearch.Text.Trim() == "Normal Mode")
+                    if (butSearch.Text.Trim() == "Tìm Kiếm")
                     {
                          reset2();
                     }
@@ -104,7 +104,7 @@ namespace Quan_Ly_Khach_San
 
           private void butSearch_Click(object sender, EventArgs e)
           {
-               if (butSearch.Text.Trim() == "Search Mode")
+               if (butSearch.Text.Trim() == "Tìm Kiếm")
                {
                     if (textSearch.Text.Trim() == "")
                     {
@@ -112,12 +112,12 @@ namespace Quan_Ly_Khach_San
                          textSearch.Focus();
                          return;
                     }
-                    butSearch.Text = "Normal Mode";
+                    butSearch.Text = "Tìm Kiếm";
                     reset2();
                }
                else
                {
-                    butSearch.Text = "Search Mode";
+                    butSearch.Text = "Tìm Kiếm";
                     reset();
                }
           }
@@ -177,8 +177,13 @@ namespace Quan_Ly_Khach_San
                     connector.InsertUpdateObject("EditObject", "4", textID.Text, "", textName.Text, "1/1/1994", "1/1/1994", textPrice.Text);
                     MessageBox.Show("Updating completed", "^...^", MessageBoxButtons.OK, MessageBoxIcon.Information);
                }
-               if (butSearch.Text.Trim() == "Search Mode") reset();
+               if (butSearch.Text.Trim() == "Tìm Kiếm") reset();
                else reset2();
+          }
+
+          private void textSearch_TextChanged(object sender, EventArgs e)
+          {
+
           }
      }
 }

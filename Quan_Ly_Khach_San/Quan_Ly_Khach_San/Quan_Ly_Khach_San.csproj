@@ -92,8 +92,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormDichVu.resx">
+      <DependentUpon>FormDichVu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormKhachHang.resx">
       <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQLDichVu.resx">
+      <DependentUpon>FormQLDichVu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormQLDoDung.resx">
       <DependentUpon>FormQLDoDung.cs</DependentUpon>
