@@ -51,7 +51,10 @@ namespace Quan_Ly_Khach_San
 
           private void butKhachHang_Click(object sender, EventArgs e)
           {
-
+               FormKhachHang frm = new FormKhachHang();
+               frm.ShowDialog();
+               frm.Close();
+               frm.Dispose();
           }
 
           private void butDoDung_Click(object sender, EventArgs e)
@@ -69,7 +72,10 @@ namespace Quan_Ly_Khach_San
 
           private void butPhong_Click(object sender, EventArgs e)
           {
-
+               FormPhong frm = new FormPhong();
+               frm.ShowDialog();
+               frm.Close();
+               frm.Dispose();
           }
 
           private void button1_Click(object sender, EventArgs e)
