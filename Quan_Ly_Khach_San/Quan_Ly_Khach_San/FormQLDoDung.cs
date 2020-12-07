@@ -201,9 +201,9 @@ namespace Quan_Ly_Khach_San
             }
             if (textNum.Text.Trim() == "")
             {
-                MessageBox.Show("Number's values must not be null", "O___O", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-                textNum.Focus();
-                return false;
+                //MessageBox.Show("Number's values must not be null", "O___O", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                //textNum.Focus();
+                //return false;
             }
             int b;
             if (int.TryParse(textNum.Text, out b) == false)
