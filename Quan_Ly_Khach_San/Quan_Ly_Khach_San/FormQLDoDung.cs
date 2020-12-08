@@ -201,9 +201,9 @@ namespace Quan_Ly_Khach_San
             }
             if (textNum.Text.Trim() == "")
             {
-                //MessageBox.Show("Number's values must not be null", "O___O", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-                //textNum.Focus();
-                //return false;
+                MessageBox.Show("Number's values must not be null", "O___O", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                textNum.Focus();
+                return false;
             }
             int b;
             if (int.TryParse(textNum.Text, out b) == false)
@@ -217,20 +217,20 @@ namespace Quan_Ly_Khach_San
 
         private void butFree_Click(object sender, EventArgs e)
         {
-            if (butFree.Text == "Add")
-            {
-                if (check(1) == false) return;
-                connector.InsertUpdateObject("AddObject", "6", textID1.Text, textID2.Text, "", "1/1/1994", "1/1/1994", textNum.Text);
-                MessageBox.Show("Inserting completed", "^...^", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else
-            {
-                if (check(2) == false) return;
-                connector.InsertUpdateObject("EditObject", "6", textID1.Text, textID2.Text, "", "1/1/1994", "1/1/1994", textNum.Text);
-                MessageBox.Show("Updating completed", "^...^", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            if (butSearch.Text.Trim() == "Search Mode") reset();
-            else reset2();
+            //if (butFree.Text == "Add")
+            //{
+            //    if (check(1) == false) return;
+            //    connector.InsertUpdateObject("AddObject", "6", textID1.Text, textID2.Text, "", "1/1/1994", "1/1/1994", textNum.Text);
+            //    MessageBox.Show("Inserting completed", "^...^", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //}
+            //else
+            //{
+            //    if (check(2) == false) return;
+            //    connector.InsertUpdateObject("EditObject", "6", textID1.Text, textID2.Text, "", "1/1/1994", "1/1/1994", textNum.Text);
+            //    MessageBox.Show("Updating completed", "^...^", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //}
+            //if (butSearch.Text.Trim() == "Search Mode") reset();
+            //else reset2();
         }
     }
 }
