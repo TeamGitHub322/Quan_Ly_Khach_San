@@ -83,22 +83,22 @@ namespace Quan_Ly_Khach_San
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (listView1.SelectedItems.Count > 0)
-            {
-                int index = listView1.SelectedItems[0].Index;
-                textID1.Text = table1.Rows[index][0].ToString();
-                textID2.Text = table1.Rows[index][1].ToString();
-                textNum.Text = table1.Rows[index][2].ToString();
-            }
+            //if (listView1.SelectedItems.Count > 0)
+            //{
+            //    int index = listView1.SelectedItems[0].Index;
+            //    textID1.Text = table1.Rows[index][0].ToString();
+            //    textID2.Text = table1.Rows[index][1].ToString();
+            //    textNum.Text = table1.Rows[index][2].ToString();
+            //}
         }
 
         private void listView2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (listView2.SelectedItems.Count > 0)
-            {
-                int index = listView2.SelectedItems[0].Index;
-                textID1.Text = table2.Rows[index][0].ToString();
-            }
+            //if (listView2.SelectedItems.Count > 0)
+            //{
+            //    int index = listView2.SelectedItems[0].Index;
+            //    textID1.Text = table2.Rows[index][0].ToString();
+            //}
         }
 
         private void listView3_SelectedIndexChanged(object sender, EventArgs e)
@@ -217,20 +217,20 @@ namespace Quan_Ly_Khach_San
 
         private void butFree_Click(object sender, EventArgs e)
         {
-            //if (butFree.Text == "Add")
-            //{
-            //    if (check(1) == false) return;
-            //    connector.InsertUpdateObject("AddObject", "6", textID1.Text, textID2.Text, "", "1/1/1994", "1/1/1994", textNum.Text);
-            //    MessageBox.Show("Inserting completed", "^...^", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //}
-            //else
-            //{
-            //    if (check(2) == false) return;
-            //    connector.InsertUpdateObject("EditObject", "6", textID1.Text, textID2.Text, "", "1/1/1994", "1/1/1994", textNum.Text);
-            //    MessageBox.Show("Updating completed", "^...^", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //}
-            //if (butSearch.Text.Trim() == "Search Mode") reset();
-            //else reset2();
+            if (butFree.Text == "Add")
+            {
+                if (check(1) == false) return;
+                connector.InsertUpdateObject("AddObject", "6", textID1.Text, textID2.Text, "", "1/1/1994", "1/1/1994", textNum.Text);
+                MessageBox.Show("Inserting completed", "^...^", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                if (check(2) == false) return;
+                connector.InsertUpdateObject("EditObject", "6", textID1.Text, textID2.Text, "", "1/1/1994", "1/1/1994", textNum.Text);
+                MessageBox.Show("Updating completed", "^...^", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            if (butSearch.Text.Trim() == "Search Mode") reset();
+            else reset2();
         }
     }
 }
