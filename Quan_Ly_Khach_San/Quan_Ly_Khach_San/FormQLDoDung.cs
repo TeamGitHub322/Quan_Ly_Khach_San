@@ -83,22 +83,22 @@ namespace Quan_Ly_Khach_San
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //if (listView1.SelectedItems.Count > 0)
-            //{
-            //    int index = listView1.SelectedItems[0].Index;
-            //    textID1.Text = table1.Rows[index][0].ToString();
-            //    textID2.Text = table1.Rows[index][1].ToString();
-            //    textNum.Text = table1.Rows[index][2].ToString();
-            //}
+            if (listView1.SelectedItems.Count > 0)
+            {
+                int index = listView1.SelectedItems[0].Index;
+                textID1.Text = table1.Rows[index][0].ToString();
+                textID2.Text = table1.Rows[index][1].ToString();
+                textNum.Text = table1.Rows[index][2].ToString();
+            }
         }
 
         private void listView2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //if (listView2.SelectedItems.Count > 0)
-            //{
-            //    int index = listView2.SelectedItems[0].Index;
-            //    textID1.Text = table2.Rows[index][0].ToString();
-            //}
+            if (listView2.SelectedItems.Count > 0)
+            {
+                int index = listView2.SelectedItems[0].Index;
+                textID1.Text = table2.Rows[index][0].ToString();
+            }
         }
 
         private void listView3_SelectedIndexChanged(object sender, EventArgs e)
@@ -112,30 +112,30 @@ namespace Quan_Ly_Khach_San
 
         private void radView_CheckedChanged(object sender, EventArgs e)
         {
-            RadioButton rad = (RadioButton)(sender);
-            if (rad.Checked == true)
-            {
-                butFree.Text = rad.Text;
-                if (rad.Text == "View")
-                {
-                    butFree.Enabled = false;
-                    textNum.ReadOnly = textID2.ReadOnly = textID1.ReadOnly = true;
-                    listView2.Enabled = listView3.Enabled = false;
-                }
-                else
-                {
-                    butFree.Enabled = true;
-                    textID1.ReadOnly = textID2.ReadOnly = true;
-                    listView2.Enabled = listView3.Enabled = false;
-                    textNum.ReadOnly = false;
-                    if (rad.Text == "Add")
-                    {
-                        textID1.ReadOnly = textID2.ReadOnly = false;
-                        textID1.Text = textID2.Text = textNum.Text = "";
-                        listView2.Enabled = listView3.Enabled = true;
-                    }
-                }
-            }
+            //RadioButton rad = (RadioButton)(sender);
+            //if (rad.Checked == true)
+            //{
+            //    butFree.Text = rad.Text;
+            //    if (rad.Text == "View")
+            //    {
+            //        butFree.Enabled = false;
+            //        textNum.ReadOnly = textID2.ReadOnly = textID1.ReadOnly = true;
+            //        listView2.Enabled = listView3.Enabled = false;
+            //    }
+            //    else
+            //    {
+            //        butFree.Enabled = true;
+            //        textID1.ReadOnly = textID2.ReadOnly = true;
+            //        listView2.Enabled = listView3.Enabled = false;
+            //        textNum.ReadOnly = false;
+            //        if (rad.Text == "Add")
+            //        {
+            //            textID1.ReadOnly = textID2.ReadOnly = false;
+            //            textID1.Text = textID2.Text = textNum.Text = "";
+            //            listView2.Enabled = listView3.Enabled = true;
+            //        }
+            //    }
+            //}
         }
 
         private void butDel_Click(object sender, EventArgs e)
