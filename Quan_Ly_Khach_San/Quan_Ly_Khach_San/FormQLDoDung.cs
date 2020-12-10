@@ -112,30 +112,30 @@ namespace Quan_Ly_Khach_San
 
         private void radView_CheckedChanged(object sender, EventArgs e)
         {
-            //RadioButton rad = (RadioButton)(sender);
-            //if (rad.Checked == true)
-            //{
-            //    butFree.Text = rad.Text;
-            //    if (rad.Text == "View")
-            //    {
-            //        butFree.Enabled = false;
-            //        textNum.ReadOnly = textID2.ReadOnly = textID1.ReadOnly = true;
-            //        listView2.Enabled = listView3.Enabled = false;
-            //    }
-            //    else
-            //    {
-            //        butFree.Enabled = true;
-            //        textID1.ReadOnly = textID2.ReadOnly = true;
-            //        listView2.Enabled = listView3.Enabled = false;
-            //        textNum.ReadOnly = false;
-            //        if (rad.Text == "Add")
-            //        {
-            //            textID1.ReadOnly = textID2.ReadOnly = false;
-            //            textID1.Text = textID2.Text = textNum.Text = "";
-            //            listView2.Enabled = listView3.Enabled = true;
-            //        }
-            //    }
-            //}
+            RadioButton rad = (RadioButton)(sender);
+            if (rad.Checked == true)
+            {
+                butFree.Text = rad.Text;
+                if (rad.Text == "View")
+                {
+                    butFree.Enabled = false;
+                    textNum.ReadOnly = textID2.ReadOnly = textID1.ReadOnly = true;
+                    listView2.Enabled = listView3.Enabled = false;
+                }
+                else
+                {
+                    butFree.Enabled = true;
+                    textID1.ReadOnly = textID2.ReadOnly = true;
+                    listView2.Enabled = listView3.Enabled = false;
+                    textNum.ReadOnly = false;
+                    if (rad.Text == "Add")
+                    {
+                        textID1.ReadOnly = textID2.ReadOnly = false;
+                        textID1.Text = textID2.Text = textNum.Text = "";
+                        listView2.Enabled = listView3.Enabled = true;
+                    }
+                }
+            }
         }
 
         private void butDel_Click(object sender, EventArgs e)
